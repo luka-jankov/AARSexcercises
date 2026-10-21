@@ -1,12 +1,21 @@
+html {
+  font-size: 62.5%; /* baza 10px */
+}
 body {
   background-color: beige;
-  border: 1px dashed black;
+  border: 0.1rem dashed black;
   font-family: "Oswald", helvetica, sans-serif;
 }
 h1 {
   color: blue;
-  border: 1px solid rgb(53, 53, 155);
+  border: 0.1rem solid rgb(53, 53, 155);
 }
 p {
   line-height: 1.5;
+  font-size: 2rem;
+}
+span {
+  color: red;
+  font-weight: bold;
+  font-size: 2rem;
 }
